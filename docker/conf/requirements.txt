@@ -1,0 +1,8 @@
+torch==2.0.1
+matplotlib
+numpy
+tensorboard
+opencv-python
+trimesh[easy]
+torch-geometric==1.7.2
+open3d

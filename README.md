@@ -17,6 +17,8 @@ On both platforms, we suggest to use conda virtual environment.
 
 #### For Linux user
 
+**[2024.04.28]** I have tested the code on Docker, please check [docker](./docker/README.md) for more details.
+
 **[2023.05.21]** I have tested the code on Ubuntu 22.04, with cuda 11.3. The following commands have been updated. 
 
 ```
