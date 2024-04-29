@@ -94,7 +94,8 @@ def create_single_data(mesh_filaname):
     # voxel
     if not os.path.exists(mesh_filaname.replace('_remesh.obj', '_normalized.binvox')):
         if platform == "linux" or platform == "linux2":
-            os.system("./binvox -d 88 -pb " + mesh_filaname.replace("_remesh.obj", "_normalized.obj"))
+            # os.system("./binvox -d 88 -pb " + mesh_filaname.replace("_remesh.obj", "_normalized.obj"))
+            os.system("./binvox -d 88 " + mesh_filaname.replace("_remesh.obj", "_normalized.obj"))
         elif platform == "win32":
             os.system("binvox.exe -d 88 " + mesh_filaname.replace("_remesh.obj", "_normalized.obj"))
         else:

@@ -4,3 +4,6 @@ wget
 libgl1-mesa-glx
 libx11-dev
 libglib2.0-0
+libxmu6
+libglu1-mesa
+python3-rtree
